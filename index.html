@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut con Stripe</title>
+</head>
+
+<body>
+    <h1>CheckOut con Stripe</h1>
+    <section id="products" class="products"></section>
+    <template id="product-template">
+        <figure class="product">
+            <img>
+            <figcaption></figcaption>
+        </figure>
+    </template>
+
+    <!-- llamar la libreria de stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
+    <!-- llamar al js -->
+    <script src="assets/stripe-checkout.js" type="module"></script>
+</body>
+
+</html>
